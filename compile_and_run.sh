@@ -1,6 +1,8 @@
+while true; do
 clear
-while true; do:
-gcc -o asCesnake main.c -lncurses -lpthread
-read -p "Press any key to run the last successfull compiled spaget code" < /dev/tty
-./asCesnake
+echo "=== Compiling ==="
+gcc -o asCesnake.lxf-amd64 main.c -lncurses -lpthread
+echo "=== Program Compiled ==="
+read -p "Press enter to run the last successfull compiled spaget code" < /dev/tty
+./asCesnake.lxf-amd64
 done
